@@ -275,7 +275,7 @@ input_df = user_input_features()
 
 # Input nilai tukar USD ke IDR
 st.sidebar.header("Konversi Mata Uang :moneybag:")
-exchange_rate = st.sidebar.number_input("Nilai Tukar USD ke IDR", value=15000.0, step=100.0)
+exchange_rate = st.sidebar.number_input("Nilai Tukar USD ke IDR", value=16283.0, step=100.0)
 
 # Pindahkan tombol prediksi ke sidebar
 predict_button = st.sidebar.button("Prediksi Biaya :rocket:")
